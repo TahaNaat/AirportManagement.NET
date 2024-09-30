@@ -1,0 +1,11 @@
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfo.cs
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.deps.json
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.pdb
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\refint\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.pdb
+C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\ref\AM.Core.Domain.dll

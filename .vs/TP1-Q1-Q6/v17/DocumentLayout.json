@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.UI.Console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.UI.Console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Services\\IFlightService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Services\\IFlightService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Services\\FlightService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Services\\FlightService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\Flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\Passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\Traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\Staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\Plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\PlaneType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\PlaneType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\AM.Core.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Core.Domain\\AM.Core.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Traveller.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Traveller.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Traveller.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Traveller.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Traveller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:53:01.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Staff.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Staff.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Staff.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:51:54.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Passenger.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Passenger.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Passenger.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Passenger.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:51:20.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFlightService.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Services\\IFlightService.cs",
+              "RelativeDocumentMoniker": "AM.Core.Services\\IFlightService.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Services\\IFlightService.cs",
+              "RelativeToolTip": "AM.Core.Services\\IFlightService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:50:59.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightService.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Services\\FlightService.cs",
+              "RelativeDocumentMoniker": "AM.Core.Services\\FlightService.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Services\\FlightService.cs",
+              "RelativeToolTip": "AM.Core.Services\\FlightService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:50:56.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.UI.Console\\Program.cs",
+              "RelativeDocumentMoniker": "AM.UI.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.UI.Console\\Program.cs",
+              "RelativeToolTip": "AM.UI.Console\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:49:34.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlaneType.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\PlaneType.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\PlaneType.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\PlaneType.cs",
+              "RelativeToolTip": "AM.Core.Domain\\PlaneType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:48:35.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Plane.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Plane.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Plane.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Plane.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Plane.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:35:49.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Flight.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Flight.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Flight.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T10:09:45.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\Class1.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T10:09:24.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AM.Core.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\AM.Core.Domain.csproj",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\AM.Core.Domain.csproj",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\.net\\TP1-Q1-Q6\\AM.Core.Domain\\AM.Core.Domain.csproj",
+              "RelativeToolTip": "AM.Core.Domain\\AM.Core.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T10:09:21.27Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
