@@ -11,8 +11,7 @@ namespace AM.Core.Domain
     {
         public string Healthinformation { get; set; }
         public string Nationality { get; set; }
-        override
-     public string ToString()
+     public override string ToString()
         {
 
             return base.ToString() +
@@ -20,9 +19,9 @@ namespace AM.Core.Domain
                 + "Nationality:" + Nationality;
                  
         }
-        public override string GetPassangerType()
+        public override string GetPassengerType()
         {
-            return "I am a traveller";
+            return "I am a Traveller ";
         }
     }
 }

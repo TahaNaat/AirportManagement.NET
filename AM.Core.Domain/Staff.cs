@@ -12,6 +12,7 @@ namespace AM.Core.Domain
         public DateTime EmployementDate { get; set; }
         public string Function { get; set; }
         public int Salary { get; set; }
+        
        public override string ToString()
         {
             return base.ToString() +
@@ -19,9 +20,9 @@ namespace AM.Core.Domain
                 + "Function:" + Function 
                 + "Salary:"  + Salary;
         }
-        public override string GetPassangerType()
+        public override string GetPassengerType()
         {
-            return "I am a staff member";
+            return "I am a passenger I am a Staff Member»";
         }
     }
 }

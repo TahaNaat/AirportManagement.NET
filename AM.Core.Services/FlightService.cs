@@ -1,44 +1,117 @@
-﻿using AM.Core.Domain   
+﻿using AM.Core.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AM.Core.Services
 {
-    public IList<Flight> flights { get; set; } 
-    public IList<Flight> GetFlights(string filterType, string filterValue)
+    public class FlightService : IFlightService
     {
-        switch (filterType.ToLower())
+        public IList<Flight> Flights { get; set; }
+
+        public IList<DateTime> GetFlightDates(string destination)
         {
-            case "destination":
-                return flights.Where(f => f.Destination.Equals(filterValue, StringComparison.OrdinalIgnoreCase)).ToList();
+           IList<DateTime> dates = new List<DateTime>();
+            foreach (var flight in Flights)
+            {
+                if (flight.Destination == destination)
+                {
+                    dates.Add(flight.FlightDate);
+                }
+            }
+            return dates;
+        }
+        public IList<DateTime> GetFlightDates_lINQ(string destination)
+        {
+            //fonction avancee de linq
+            /* return Flights.Where(f => f.Destination == destination)
+                           .Select(f => f.FlightDate)
+                           .ToList();*/
+            //linq integree  
+            return (from f in Flights
+                    where f.Destination == destination
+                    select f.FlightDate).ToList();
 
-            case "departure":
-                return flights.Where(f => f.Depature.Equals(filterValue, StringComparison.OrdinalIgnoreCase)).ToList();
 
-            case "flightid":
-                if (int.TryParse(filterValue, out int flightId))
-                    return flights.Where(f => f.FlightId == flightId).ToList();
-                else
-                    throw new ArgumentException("Invalid Flight ID value");
+        }
+        public IList<Flight> GetFlights(string filterType, string filterValue)
+        {
+            IList<Flight> flights = new List<Flight>();
+            switch (filterType)
+            {
+                case "Destination":
+                    foreach (var flight in Flights)
+                    {
+                        if (flight.Destination == filterValue)
+                        {
+                            flights.Add(flight);
+                        }
+                    }
+                    break;
+                case "Departure":
+                    foreach (var flight in Flights)
+                    {
+                        if (flight.Departure == filterValue)
+                        {
+                            flights.Add(flight);
+                        }
+                    }
+                    break;
+                case "FlightDate":
+                    foreach (var flight in Flights)
+                    {
+                        if (flight.FlightDate.ToString() == filterValue)
+                        {
+                            flights.Add(flight);
+                        }
+                    }
+                    break;
+                case "FlightId":
+                    foreach (var flight in Flights)
+                    {
+                        if (flight.FlightId.ToString() == filterValue)
+                        {
+                            flights.Add(flight);
+                        }
+                    }
+                    break;
+                case "EffectiveArrival":
+                    foreach (var flight in Flights)
+                    {
+                        if (flight.EffectiveArrival.ToString() ==filterValue)
+                        {
+                            flights.Add(flight);
+                        }
+                    }
+                    break;
+                case "EstimateDuration":
+                    foreach (var flight in Flights)
+                    {
+                        if (flight.EstimateDuration.ToString() == filterValue)
+                        {
+                            flights.Add(flight);
+                        }
+                    }
+                    break;
+               
+            }
+            return flights;
+            
 
-            case "estimateduration":
-                if (int.TryParse(filterValue, out int duration))
-                    return flights.Where(f => f.EstimateDuration == duration).ToList();
-                else
-                    throw new ArgumentException("Invalid Duration value");
+        }
 
-            default:
-                throw new ArgumentException($"Filter type '{filterType}' is not supported.");
+        public void ShowFlightDetails(Plane plane)
+        {
+            var result = from f in Flights
+                         where f.MyPlane.PlaneId == plane.PlaneId
+                         select new { date = f.FlightDate, destination = f.Destination };
+            foreach (var r in result)
+            {
+                Console.WriteLine("FlightDate:" + r.date + ";Destination:" + r.destination);
+            }
         }
     }
-    public IList<DateTime> GetFlightDates(string destination)
-    {
-        return flights.Where(flight => flight.Destination == destination)
-                      .Select(flight => flight.FlightDate) 
-                      .ToList();
-    }
-}
 }

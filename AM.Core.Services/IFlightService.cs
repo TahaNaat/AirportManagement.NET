@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AM.Core.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +11,8 @@ namespace AM.Core.Services
     {
         IList<DateTime> GetFlightDates(string destination);
         IList<Flight> GetFlights(string filterType, string filterValue);
+        IList<DateTime> GetFlightDates_lINQ(string destination);
+       void ShowFlightDetails(Plane plane);
+
     }
 }

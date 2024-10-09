@@ -1,11 +1,26 @@
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfoInputs.cache
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfo.cs
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.csproj.CoreCompileInputs.cache
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.deps.json
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.dll
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.pdb
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.dll
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\refint\AM.Core.Domain.dll
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.pdb
-C:\Users\tahan\OneDrive\Bureau\.net\TP1-Q1-Q6\AM.Core.Domain\obj\Debug\net8.0\ref\AM.Core.Domain.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.deps.json
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.pdb
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfoInputs.cache
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfo.cs
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.csproj.CoreCompileInputs.cache
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\refint\AM.Core.Domain.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.pdb
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Domain\obj\Debug\net8.0\ref\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.deps.json
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.runtimeconfig.json
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\bin\Debug\net8.0\AM.Core.Domain.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.AssemblyInfo.cs
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.sourcelink.json
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\refint\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\AM.Core.Domain.genruntimeconfig.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Domain\obj\Debug\net8.0\ref\AM.Core.Domain.dll

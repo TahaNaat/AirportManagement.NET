@@ -16,20 +16,9 @@ namespace AM.Core.Domain
         public string LastName { get; set; }
         public string TelNumber { get; set; }
         public IList<Flight> Flights { get; set; }
-        public int Age {get
-            {
-                int calculatedAge = 0;
-                calculatedAge = DateTime.Now.Year - BirthDate.Year;
-                if (BirthDate.Month > DateTime.Now.Month || (BirthDate.Month == DateTime.Now.Month && BirthDate.Day > DateTime.Now.Day))
-                {
-                    calculatedAge = calculatedAge - 1;
-                }
-                return calculatedAge;
-            }
-        }
+        public int Age { get; set; }
 
-
-
+ 
        public override string ToString()
         {
             return "BirthDate:" + BirthDate 
@@ -39,40 +28,49 @@ namespace AM.Core.Domain
                 + "LastName:" + LastName 
                 + "TelNumber:" + TelNumber;
         }
-       /*public bool CheckProfile( string firstname , string lastname)
+        //public bool CheckProfile(string firstName , string lastName)
+        //{
+        //    return firstName == FirstName && lastName== LastName;
+        //}
+        
+        //public bool CheckProfile(string firstName, string lastName ,string email)
+        //{
+        //    return firstName == FirstName && lastName == LastName
+        //        && email == EmailAddress;
+        //}
+        public bool CheckProfile(string firstName, string lastName, string email=null)
         {
-            return firstname == FirstName && lastname == LastName;
-        }
-        public bool CheckProfile(string firstname, string lastname, string email )
-        {
-            return firstname == FirstName && lastname == LastName && email == EmailAddress;
-        }*/
-        public bool CheckProfile(string firstname, string lastname, string email = null)
-        { if (email == null)
+            if (email == null)
             {
-                return firstname == FirstName && lastname == LastName;
+                return firstName == FirstName && lastName == LastName;
             }
-            return firstname == FirstName && lastname == LastName && email == EmailAddress;
+
+            return firstName == FirstName && lastName == LastName
+                && email == EmailAddress;
         }
-       public virtual string GetPassangerType()
+
+        public virtual string GetPassengerType()
         {
-            return "I am a passanger";
+            return "I am a passenger";
         }
-        public void GetAge(DateTime birthDate , ref int calculatedAge)
+
+        public void GetAge(DateTime birthDate, ref int calculatedAge)
         {
-            calculatedAge = DateTime.Now.Year - birthDate. Year;
-            if (birthDate.Month > DateTime.Now.Month || (birthDate.Month == DateTime.Now.Month && birthDate.Day > DateTime.Now.Day))
+            calculatedAge=DateTime.Now.Year-birthDate.Year;
+            if(birthDate.Month>DateTime.Now.Month || 
+                (birthDate.Month==DateTime.Now.Month && birthDate.Day>DateTime.Now.Day))
             {
                 calculatedAge = calculatedAge - 1;
             }
         }
-      /*  public void GetAge(Passenger p)
+        public void GetAge(Passenger p)
         {
             p.Age = DateTime.Now.Year - p.BirthDate.Year;
-            if (p.BirthDate .Month > DateTime.Now.Month || (p.BirthDate.Month == DateTime.Now.Month && p.BirthDate.Day > DateTime.Now.Day))
+            if (p.BirthDate.Month > DateTime.Now.Month ||
+                (p.BirthDate.Month == DateTime.Now.Month && p.BirthDate.Day > DateTime.Now.Day))
             {
                 p.Age = p.Age - 1;
             }
-        }*/
+        }
     }
 }
