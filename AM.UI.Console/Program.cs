@@ -1,37 +1,42 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AM.Core.Domain;
-
-
-Console.WriteLine("Hello, World!");
-
-
+using AM.Data;
+/*Console.WriteLine("Hello, World!");
 Plane plane = new Plane();
 plane.Capacity = 10;
-plane.ManufactureDate = new DateTime(2024,12,24);
+plane.ManufactureDate = new DateTime(2024, 12, 24);
 plane.MyPlaneType = PlaneType.Boing;
 plane.PlaneId = 2;
+Plane plane2 = new Plane(PlaneType.Airbus, 12, new DateTime(2024, 12, 24));
+Passenger passenger = new Passenger();
+Passenger staff = new Staff();
+Passenger traveller = new Traveller();
+Passenger anotherPassenger = new Passenger { BirthDate = new DateTime(1985, 10, 25) };
+Passenger passengee = new Passenger { BirthDate = new DateTime(1985, 10, 25) };
+Console.WriteLine(passenger.GetPassengerType());
+Console.WriteLine(staff.GetPassengerType());
+Console.WriteLine(traveller.GetPassengerType());
+int ageValue = 0;
+passenger.GetAge(passenger.BirthDate, ref ageValue);
+Console.WriteLine($"Passage par référence : âge calculé = {ageValue}");
+passenger.GetAge(anotherPassenger)
+Console.WriteLine($"Passage d'un objet Passenger : âge = {anotherPassenger.age}");*/
+Plane plane = new Plane();
 
-Plane plane2 = new Plane(PlaneType.Airbus,12, new DateTime(2024, 12, 24));
-
-Plane plane3 = new Plane()
+Flight f = new Flight()
 {
-    Capacity = 10,
-    ManufactureDate = new DateTime(2024, 05, 10)
+    Destination = "Paris",
+    Departure = "New York",
+    FlightDate = DateTime.Now.AddHours(2),
+    EffectiveArrival = DateTime.Now,
+    MyPlane = plane,
+    EstimateDuration = 6,
+    Comments = "Vol sans escale",
+
+
 };
 
-Passenger p1, p2,p3;
-p1 = new Passenger();
-p2= new Staff();
-p3= new Traveller();
+AMContext ctxt = new AMContext();
+ctxt.Flights.Add(f);
 
-//Console.WriteLine(p1.GetPassengerType());
-//Console.WriteLine(p2.GetPassengerType());
-//Console.WriteLine(p3.GetPassengerType());
-
-int cAge = 0;
-p1.GetAge(new DateTime(2000, 1, 1), ref cAge);
-Console.WriteLine(cAge);
-p1.BirthDate = new DateTime(2000, 1, 1);
-Console.WriteLine(p1.Age);
-p1.GetAge(p1);
-Console.WriteLine(p1.Age);
+ctxt.SaveChanges();

@@ -4,11 +4,13 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace AM.Core.Domain
 {
     public class Passenger
     {
+       /* public int PassengerId { get; set; }
         public DateTime BirthDate { get; set; }
         public string PassportNumber { get; set; }
         public string EmailAddress { get; set; }
@@ -16,10 +18,38 @@ namespace AM.Core.Domain
         public string LastName { get; set; }
         public string TelNumber { get; set; }
         public IList<Flight> Flights { get; set; }
-        public int Age { get; set; }
+        public int Age { get; set; }*/
 
- 
-       public override string ToString()
+        public int PassengerId { get; set; }
+
+        [Display(Name = "Date of Birth")]
+        [DataType(DataType.Date)]
+        public DateTime BirthDate { get; set; }
+
+        [Required]
+        [StringLength(7, ErrorMessage = "Passport number must be 7 characters.")]
+        public string PassportNumber { get; set; }
+
+        [Required]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
+        public string EmailAddress { get; set; }
+
+        [Required]
+        [StringLength(25, MinimumLength = 3, ErrorMessage = "First Name should be between 3 and 25 characters.")]
+        public string FirstName { get; set; }
+
+        [Required]
+        [StringLength(30, ErrorMessage = "Last Name cannot exceed 30 characters.")]
+        public string LastName { get; set; }
+
+        [Required]
+        [Phone(ErrorMessage = "Invalid phone number")]
+        public string TelNumber { get; set; }
+
+        public IList<Flight> Flights { get; set; }
+
+        public int Age { get; set; }
+        public override string ToString()
         {
             return "BirthDate:" + BirthDate 
                 + "PassportNumber:" + PassportNumber 

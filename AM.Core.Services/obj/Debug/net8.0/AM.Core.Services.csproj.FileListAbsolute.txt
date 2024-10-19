@@ -1,5 +1,34 @@
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.deps.json
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.pdb
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\bin\Debug\net8.0\AM.Core.Domain.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\bin\Debug\net8.0\AM.Core.Domain.pdb
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.csproj.AssemblyReference.cache
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.GeneratedMSBuildEditorConfig.editorconfig
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.AssemblyInfoInputs.cache
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.AssemblyInfo.cs
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.csproj.CoreCompileInputs.cache
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core..3E0FF464.Up2Date
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\refint\AM.Core.Services.dll
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.pdb
+G:\4SAE7\dotNet\AirportManagement 1\AM.Core.Services\obj\Debug\net8.0\ref\AM.Core.Services.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.deps.json
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\bin\Debug\net8.0\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\bin\Debug\net8.0\AM.Core.Domain.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.csproj.AssemblyReference.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.AssemblyInfoInputs.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.AssemblyInfo.cs
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.csproj.CoreCompileInputs.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core..3E0FF464.Up2Date
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\refint\AM.Core.Services.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\TP3-Q6.c\AM.Core.Services\obj\Debug\net8.0\ref\AM.Core.Services.dll
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.deps.json
-C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.runtimeconfig.json
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.dll
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\bin\Debug\net8.0\AM.Core.Services.pdb
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\bin\Debug\net8.0\AM.Core.Domain.dll
@@ -14,5 +43,4 @@ C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\obj\D
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.dll
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\obj\Debug\net8.0\refint\AM.Core.Services.dll
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.pdb
-C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\obj\Debug\net8.0\AM.Core.Services.genruntimeconfig.cache
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Services\obj\Debug\net8.0\ref\AM.Core.Services.dll

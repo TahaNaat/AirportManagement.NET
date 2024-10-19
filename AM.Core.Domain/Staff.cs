@@ -1,28 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace AM.Core.Domain
 {
     public class Staff : Passenger
     {
-        public DateTime EmployementDate { get; set; }
+        [DataType(DataType.Date)]
+        [Display(Name = "Employment Date")]
+        public DateTime EmploymentDate { get; set; }
+
+        [Required]
+        [StringLength(100, ErrorMessage = "Function cannot exceed 100 characters.")]
         public string Function { get; set; }
+
+        [Range(0, int.MaxValue, ErrorMessage = "Salary must be a positive number.")]
+        [DataType(DataType.Currency)]
         public int Salary { get; set; }
-        
-       public override string ToString()
+
+        public override string ToString()
         {
             return base.ToString() +
-                "EmployementDate:" + EmployementDate 
-                + "Function:" + Function 
-                + "Salary:"  + Salary;
+                   $"EmploymentDate: {EmploymentDate.ToShortDateString()}, " +
+                   $"Function: {Function}, " +
+                   $"Salary: {Salary}";
         }
+
         public override string GetPassengerType()
         {
-            return "I am a passenger I am a Staff Member»";
+            return "I am a passenger and a staff member.";
         }
     }
 }
