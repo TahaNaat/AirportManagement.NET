@@ -1,83 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
 
 namespace AM.Core.Domain
 {
     public class Passenger
     {
-       /* public int PassengerId { get; set; }
-        public DateTime BirthDate { get; set; }
-        public string PassportNumber { get; set; }
-        public string EmailAddress { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string TelNumber { get; set; }
-        public IList<Flight> Flights { get; set; }
-        public int Age { get; set; }*/
-
-        public int PassengerId { get; set; }
-
+       // public int PassengerId { get; set; }
+        [DataType(DataType.Date, ErrorMessage = "Invalid Date format")]
         [Display(Name = "Date of Birth")]
-        [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
-
-        [Required]
-        [StringLength(7, ErrorMessage = "Passport number must be 7 characters.")]
+        [Key]
+        [Length(minimumLength:7,maximumLength:7,ErrorMessage ="taille exacte 7 caracters")]
         public string PassportNumber { get; set; }
-
-        [Required]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string EmailAddress { get; set; }
-
-        [Required]
-        [StringLength(25, MinimumLength = 3, ErrorMessage = "First Name should be between 3 and 25 characters.")]
+        [MinLength(3, ErrorMessage = "First Name must be at least 3 characters long")]
+        [MaxLength(25, ErrorMessage = "First Name must be no longer than 25 characters")]
         public string FirstName { get; set; }
-
-        [Required]
-        [StringLength(30, ErrorMessage = "Last Name cannot exceed 30 characters.")]
         public string LastName { get; set; }
-
-        [Required]
-        [Phone(ErrorMessage = "Invalid phone number")]
+        [Phone (ErrorMessage = "invalide phone number")]
         public string TelNumber { get; set; }
-
         public IList<Flight> Flights { get; set; }
-
         public int Age { get; set; }
+
+        public FullName MyFullName { get; set; }
+
         public override string ToString()
         {
-            return "BirthDate:" + BirthDate 
-                + "PassportNumber:" + PassportNumber 
-                + "EmailAddress:" + EmailAddress 
-                + "FirstName:" + FirstName 
-                + "LastName:" + LastName 
+            return "BirthDate:" + BirthDate + ";"
+                + "PassportNumber:" + PassportNumber + ";"
+                + "EmailAddress:" + EmailAddress + ";"
+                + "FirstName:" + MyFullName.FirstName + ";"
+                + "LastName:" + MyFullName.LastName + ";"
                 + "TelNumber:" + TelNumber;
         }
-        //public bool CheckProfile(string firstName , string lastName)
-        //{
-        //    return firstName == FirstName && lastName== LastName;
-        //}
-        
+        public bool CheckProfile(string lastName, string firstName)
+        {
+            if (lastName == MyFullName.LastName && firstName == MyFullName.FirstName)
+                return true;
+            return false;
+        }
+
         //public bool CheckProfile(string firstName, string lastName ,string email)
         //{
         //    return firstName == FirstName && lastName == LastName
         //        && email == EmailAddress;
         //}
-        public bool CheckProfile(string firstName, string lastName, string email=null)
+        public bool CheckProfile(string lastName, string firstName, string emailAdress = null)
         {
-            if (email == null)
-            {
-                return firstName == FirstName && lastName == LastName;
-            }
-
-            return firstName == FirstName && lastName == LastName
-                && email == EmailAddress;
+            if (emailAdress == null)
+                return lastName == MyFullName.LastName && firstName == MyFullName.FirstName;
+            else
+                return lastName == MyFullName.LastName && firstName == MyFullName.FirstName && emailAdress == EmailAddress;
         }
+
 
         public virtual string GetPassengerType()
         {

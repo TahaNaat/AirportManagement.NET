@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1122BEBD-7C1F-43D9-B34E-8C8EFAABF5F5}|AM.Core.Services\\AM.Core.Services.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.services\\iflightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1122BEBD-7C1F-43D9-B34E-8C8EFAABF5F5}|AM.Core.Services\\AM.Core.Services.csproj|solutionrelative:am.core.services\\iflightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1122BEBD-7C1F-43D9-B34E-8C8EFAABF5F5}|AM.Core.Services\\AM.Core.Services.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1122BEBD-7C1F-43D9-B34E-8C8EFAABF5F5}|AM.Core.Services\\AM.Core.Services.csproj|solutionrelative:am.core.services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|solutionrelative:am.core.domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|solutionrelative:am.core.domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|solutionrelative:am.core.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61776E98-385E-4E72-9E21-D34FEACCA4F6}|AM.Data\\AM.Data.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.data\\am.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{61776E98-385E-4E72-9E21-D34FEACCA4F6}|AM.Data\\AM.Data.csproj|solutionrelative:am.data\\am.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61776E98-385E-4E72-9E21-D34FEACCA4F6}|AM.Data\\AM.Data.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.data\\amcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61776E98-385E-4E72-9E21-D34FEACCA4F6}|AM.Data\\AM.Data.csproj|solutionrelative:am.data\\amcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\Migrations\\20241026215833_TP4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Data\\Migrations\\20241026215833_TP4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AM.Data.csproj",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\AM.Data.csproj",
-              "RelativeDocumentMoniker": "AM.Data\\AM.Data.csproj",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\AM.Data.csproj",
-              "RelativeToolTip": "AM.Data\\AM.Data.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-08T15:24:40.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AMContext.cs",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\AMContext.cs",
-              "RelativeDocumentMoniker": "AM.Data\\AMContext.cs",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\AMContext.cs",
-              "RelativeToolTip": "AM.Data\\AMContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T15:09:36.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Plane.cs",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Plane.cs",
-              "RelativeDocumentMoniker": "AM.Core.Domain\\Plane.cs",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Plane.cs",
-              "RelativeToolTip": "AM.Core.Domain\\Plane.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:20:25.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Flight.cs",
-              "RelativeDocumentMoniker": "AM.Core.Domain\\Flight.cs",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Flight.cs",
-              "RelativeToolTip": "AM.Core.Domain\\Flight.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:05:22.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FlightService.cs",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Services\\FlightService.cs",
-              "RelativeDocumentMoniker": "AM.Core.Services\\FlightService.cs",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Services\\FlightService.cs",
-              "RelativeToolTip": "AM.Core.Services\\FlightService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T12:50:02.597Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IFlightService.cs",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Services\\IFlightService.cs",
-              "RelativeDocumentMoniker": "AM.Core.Services\\IFlightService.cs",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Services\\IFlightService.cs",
-              "RelativeToolTip": "AM.Core.Services\\IFlightService.cs",
+              "Title": "20241026215833_TP4.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\Migrations\\20241026215833_TP4.cs",
+              "RelativeDocumentMoniker": "AM.Data\\Migrations\\20241026215833_TP4.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\Migrations\\20241026215833_TP4.cs",
+              "RelativeToolTip": "AM.Data\\Migrations\\20241026215833_TP4.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T12:49:59.395Z",
+              "WhenOpened": "2024-10-26T21:58:33.263Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Passenger.cs",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Passenger.cs",
-              "RelativeDocumentMoniker": "AM.Core.Domain\\Passenger.cs",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Passenger.cs",
-              "RelativeToolTip": "AM.Core.Domain\\Passenger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T12:48:29.881Z"
             }
           ]
         }

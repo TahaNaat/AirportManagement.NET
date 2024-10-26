@@ -5,15 +5,23 @@
 namespace AM.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class CommentInFlight : Migration
+    public partial class TP4 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "Comment",
-                table: "Flights",
+                name: "MyFullName_LastName",
+                table: "Passengers",
                 type: "nvarchar(max)",
+                nullable: false,
+                defaultValue: "");
+
+            migrationBuilder.AddColumn<string>(
+                name: "Name",
+                table: "Passengers",
+                type: "nvarchar(30)",
+                maxLength: 30,
                 nullable: false,
                 defaultValue: "");
         }
@@ -22,8 +30,12 @@ namespace AM.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Comment",
-                table: "Flights");
+                name: "MyFullName_LastName",
+                table: "Passengers");
+
+            migrationBuilder.DropColumn(
+                name: "Name",
+                table: "Passengers");
         }
     }
 }
