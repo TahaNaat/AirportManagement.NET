@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\Migrations\\20241026215833_TP4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Data\\Migrations\\20241026215833_TP4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|solutionrelative:am.core.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241026215833_TP4.cs",
-              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\Migrations\\20241026215833_TP4.cs",
-              "RelativeDocumentMoniker": "AM.Data\\Migrations\\20241026215833_TP4.cs",
-              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Data\\Migrations\\20241026215833_TP4.cs",
-              "RelativeToolTip": "AM.Data\\Migrations\\20241026215833_TP4.cs",
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Flight.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Flight.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Flight.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Flight.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T21:58:33.263Z",
+              "WhenOpened": "2024-10-27T12:48:00.264Z",
               "EditorCaption": ""
             }
           ]

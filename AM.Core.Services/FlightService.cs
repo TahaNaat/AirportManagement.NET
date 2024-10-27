@@ -113,5 +113,47 @@ namespace AM.Core.Services
                 Console.WriteLine("FlightDate:" + r.date + ";Destination:" + r.destination);
             }
         }
+     
+        public int GetWeeklyFlightNumber(DateTime date)
+        {
+            return (from f in Flights
+                    where f.FlightDate >= date
+                    && f.FlightDate < date.AddDays(7)
+                    select f).Count(); //type anonyme
+
+        }
+        public double GetDurationAverage(string destination)
+        {
+            return (from f in Flights
+                    where f.Destination.ToString() == destination
+                    select f.EstimateDuration).Average();
+        }
+        public IList<Flight> SortFlights()
+        {
+            return (from f in Flights
+                    orderby f.EstimateDuration descending
+                    select f).ToList();
+        }
+        public IList<Passenger> GetThreeOlderTravellers(Flight flight)
+        {
+            return (from p in flight.Passengers
+                    orderby p.Age descending //orderby p.BirthDate
+                    select p).Take(3).ToList();
+        }
+        public void ShowGroupedFlights()
+        {
+          
+            IEnumerable<IGrouping<string, Flight>> result = from f in Flights
+                                                            group f by f.Destination.ToString();
+            foreach (var grp in result)
+            {
+                Console.WriteLine(grp.Key);
+                foreach (var f in grp)
+                {
+                    Console.WriteLine(f);
+
+                }
+            }
+        }
     }
 }
