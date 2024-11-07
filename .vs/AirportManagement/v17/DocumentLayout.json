@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|solutionrelative:am.core.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.domain\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|solutionrelative:am.core.domain\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|c:\\users\\tahan\\onedrive\\bureau\\4sae\\.net\\airportmanagemnt\\am.core.domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF66E5C9-DDBD-49E8-89FD-852E6FC64BE2}|AM.Core.Domain\\AM.Core.Domain.csproj|solutionrelative:am.core.domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +32,35 @@
               "RelativeDocumentMoniker": "AM.Core.Domain\\Flight.cs",
               "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Flight.cs",
               "RelativeToolTip": "AM.Core.Domain\\Flight.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T12:48:00.264Z",
+              "WhenOpened": "2024-11-07T11:07:45.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Passenger.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Passenger.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Passenger.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Passenger.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:07:25.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Reservation.cs",
+              "RelativeDocumentMoniker": "AM.Core.Domain\\Reservation.cs",
+              "ToolTip": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.Core.Domain\\Reservation.cs",
+              "RelativeToolTip": "AM.Core.Domain\\Reservation.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:01:34.862Z",
               "EditorCaption": ""
             }
           ]

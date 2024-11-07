@@ -34,6 +34,8 @@ namespace AM.Data
             modelBuilder.ApplyConfiguration(new PlaneConfig());
             modelBuilder.ApplyConfiguration(new FlightConfig());
             modelBuilder.ApplyConfiguration(new PassengerConfig());
+            /*modelBuilder.Entity<Staff>().ToTable("Staffs");
+            modelBuilder.Entity<Traveller>().ToTable("Travellers");*/
 
         }
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)

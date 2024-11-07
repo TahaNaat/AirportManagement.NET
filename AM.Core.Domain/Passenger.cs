@@ -21,11 +21,13 @@ namespace AM.Core.Domain
         public string EmailAddress { get; set; }
         [MinLength(3, ErrorMessage = "First Name must be at least 3 characters long")]
         [MaxLength(25, ErrorMessage = "First Name must be no longer than 25 characters")]
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        //public string FirstName { get; set; }
+        //public string LastName { get; set; }
         [Phone (ErrorMessage = "invalide phone number")]
         public string TelNumber { get; set; }
-        public IList<Flight> Flights { get; set; }
+        //public IList<Flight> Flights { get; set; }
+        public IList<Reservation> Reservations { get; set; }
+
         public int Age { get; set; }
 
         public FullName MyFullName { get; set; }

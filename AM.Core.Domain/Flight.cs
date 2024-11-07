@@ -15,7 +15,8 @@ namespace AM.Core.Domain
         public int FlightId { get; set; }
         public DateTime EffectiveArrival { get; set; }
         public int EstimateDuration { get; set; }
-        public IList<Passenger> Passengers { get; set; }
+        //public IList<Passenger> Passengers { get; set; }
+        public IList<Reservation> Reservations { get; set; }
         [ForeignKey("MyPlane")]
         public int? PlaneId { get; set; }
        //ou bien [ForeignKey("PlaneId")]
