@@ -134,12 +134,12 @@ namespace AM.Core.Services
                     orderby f.EstimateDuration descending
                     select f).ToList();
         }
-        public IList<Passenger> GetThreeOlderTravellers(Flight flight)
+        /*public IList<Passenger> GetThreeOlderTravellers(Flight flight)
         {
             return (from p in flight.Passengers
                     orderby p.Age descending //orderby p.BirthDate
                     select p).Take(3).ToList();
-        }
+        }*/
         public void ShowGroupedFlights()
         {
           

@@ -16,7 +16,7 @@ namespace AM.Core.Domain
         public DateTime ManufactureDate { get; set; }
         public int PlaneId { get; set; }
         public PlaneType MyPlaneType { get; set; }
-        public IList<Flight> Flights { get; set; }
+        public virtual IList<Flight> Flights { get; set; }
         public Plane() { }
         public Plane(PlaneType pt, int capacity, DateTime date)
         {

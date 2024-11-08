@@ -14,9 +14,9 @@ namespace AM.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Flight> builder)
         {
-            builder.HasMany(f => f.Passengers)
-                    .WithMany(p => p.Flights)
-                    .UsingEntity(ass => ass.ToTable("FP"));
+            //builder.HasMany(f => f.Passengers)
+            //       .WithMany(p => p.Flights)
+            //        .UsingEntity(ass => ass.ToTable("FP"));
             builder.HasOne(f => f.MyPlane)
                    .WithMany(p => p.Flights)
                    .HasForeignKey(f => f.PlaneId)

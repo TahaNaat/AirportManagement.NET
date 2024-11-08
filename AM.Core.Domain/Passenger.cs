@@ -26,8 +26,7 @@ namespace AM.Core.Domain
         [Phone (ErrorMessage = "invalide phone number")]
         public string TelNumber { get; set; }
         //public IList<Flight> Flights { get; set; }
-        public IList<Reservation> Reservations { get; set; }
-
+        public virtual IList<Reservation> Reservations { get; set; }
         public int Age { get; set; }
 
         public FullName MyFullName { get; set; }
