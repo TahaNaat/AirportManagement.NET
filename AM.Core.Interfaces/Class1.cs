@@ -1,4 +1,4 @@
-﻿namespace AM.Core.Services
+﻿namespace AM.Core.Interfaces
 {
     public class Class1
     {

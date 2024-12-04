@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AM.Core.Interfaces;
 
 namespace AM.Data
 {
@@ -14,7 +15,9 @@ namespace AM.Data
         { this.context = context; }
         public void Add(T t)
         { context.Add(t); }
-       
+        //TP6 Q10
+        //public void Commit()
+        //{ context.SaveChanges();}
         public void Delete(T t)
         { context.Remove(t); }
         public T Get(int id)

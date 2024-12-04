@@ -9,6 +9,7 @@
       "AM.Data/1.0.0": {
         "dependencies": {
           "AM.Core.Domain": "1.0.0",
+          "AM.Core.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
@@ -971,6 +972,11 @@
         "runtime": {
           "AM.Core.Domain.dll": {}
         }
+      },
+      "AM.Core.Interfaces/1.0.0": {
+        "runtime": {
+          "AM.Core.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -1534,6 +1540,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "AM.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AM.Core.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

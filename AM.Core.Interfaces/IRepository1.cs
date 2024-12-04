@@ -1,13 +1,15 @@
 ﻿using System.Collections.Generic;
 
-namespace AM.Data
+namespace AM.Core.Interfaces
 {
-    internal interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
         void Add(T entity);
         T Get(int id);
+        T Get(string id);
         void Update(T entity);
         void Delete(T entity);
         IList<T> GetAll();
+        //void Save(); 
     }
 }

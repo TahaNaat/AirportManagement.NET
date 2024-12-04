@@ -5,58 +5,68 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using AM.Core.Interfaces;
 
 namespace AM.Core.Services
 {
-    public class FlightService : IFlightService
+    public class FlightService : Service<Flight>, IFlightService
     {
-        public IList<Flight> Flights { get; set; }
+        //IRepository<Flight> repository;
+        //IUnitOfWork unitOfWork;
+        public IList<Flight> Flights { get; set; } //prop
 
-        public IList<DateTime> GetFlightDates(string destination)
+        public FlightService(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
-           IList<DateTime> dates = new List<DateTime>();
-            foreach (var flight in Flights)
-            {
-                if (flight.Destination == destination)
-                {
-                    dates.Add(flight.FlightDate);
-                }
-            }
-            return dates;
+            //this.unitOfWork = unitOfWork;
+            //repository = unitOfWork.GetRepository<Flight>();
+            Flights = GetAll();
         }
-        public IList<DateTime> GetFlightDates_lINQ(string destination)
-        {
-            //fonction avancee de linq
-            /* return Flights.Where(f => f.Destination == destination)
-                           .Select(f => f.FlightDate)
-                           .ToList();*/
-            //linq integree  
-            return (from f in Flights
-                    where f.Destination == destination
-                    select f.FlightDate).ToList();
 
+        //Le langage LINQ
+        //public IList<Flight> Flights { get; set; } //prop
+
+        //public IList<DateTime> GetFlightDates(string destination)
+        //{
+        //    IList<DateTime> listeDate=new List<DateTime>(); 
+        //    foreach (var flight in Flights)
+        //    {
+        //        if (flight.Destination==destination)
+        //        {
+        //            listeDate.Add(flight.FlightDate);
+        //        }
+        //    }
+        //    return listeDate;
+        //}
+        public IList<DateTime> GetFlightDates(string destination) // linqIntegre
+        {
+            //return (from f in Flights 
+            //       where f.Destination == destination
+            //       select f.FlightDate).ToList();
+            return Flights.Where(f => f.Destination.ToString() == destination) //Methoded'extention
+                .Select(f => f.FlightDate).ToList();
 
         }
-        public IList<Flight> GetFlights(string filterType, string filterValue)
+
+        public void GetFlights(string filterType, string filterValue)
         {
-            IList<Flight> flights = new List<Flight>();
+
             switch (filterType)
             {
                 case "Destination":
                     foreach (var flight in Flights)
                     {
-                        if (flight.Destination == filterValue)
+                        if (flight.Destination.ToString() == filterValue)
                         {
-                            flights.Add(flight);
+                            Console.WriteLine(flight);
                         }
                     }
                     break;
                 case "Departure":
                     foreach (var flight in Flights)
                     {
-                        if (flight.Departure == filterValue)
+                        if (flight.Departure.ToString() == filterValue)
                         {
-                            flights.Add(flight);
+                            Console.WriteLine(flight);
                         }
                     }
                     break;
@@ -65,7 +75,7 @@ namespace AM.Core.Services
                     {
                         if (flight.FlightDate.ToString() == filterValue)
                         {
-                            flights.Add(flight);
+                            Console.WriteLine(flight);
                         }
                     }
                     break;
@@ -74,46 +84,53 @@ namespace AM.Core.Services
                     {
                         if (flight.FlightId.ToString() == filterValue)
                         {
-                            flights.Add(flight);
+                            Console.WriteLine(flight);
                         }
                     }
                     break;
                 case "EffectiveArrival":
-                    foreach (var flight in Flights)
-                    {
-                        if (flight.EffectiveArrival.ToString() ==filterValue)
-                        {
-                            flights.Add(flight);
-                        }
-                    }
-                    break;
-                case "EstimateDuration":
-                    foreach (var flight in Flights)
-                    {
-                        if (flight.EstimateDuration.ToString() == filterValue)
-                        {
-                            flights.Add(flight);
-                        }
-                    }
-                    break;
-               
-            }
-            return flights;
-            
 
+                    foreach (var flight in Flights)
+                    {
+                        // if (flight.EffectiveArrival == DateTime.Parse(filterValue))
+                        if (flight.EffectiveArrival.ToString() == filterValue)
+                        {
+                            Console.WriteLine(flight);
+                        }
+                    }
+                    break;
+                case "EstimatedDuration":
+                    try
+                    {
+                        foreach (var flight in Flights)
+                        {
+                            if (flight.EstimateDuration == int.Parse(filterValue))
+                            {
+                                Console.WriteLine(flight);
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("la valeur du filter n'est pas un int : ", ex.ToString());
+                    }
+                    break;
+            }
         }
+
+
 
         public void ShowFlightDetails(Plane plane)
         {
             var result = from f in Flights
                          where f.MyPlane.PlaneId == plane.PlaneId
-                         select new { date = f.FlightDate, destination = f.Destination };
-            foreach (var r in result)
+                         select new { f.Destination, f.FlightDate }; //type anonyme
+            foreach (var item in result)
             {
-                Console.WriteLine("FlightDate:" + r.date + ";Destination:" + r.destination);
+                Console.WriteLine("destination : " + item.Destination +
+                    "date :" + item.FlightDate);
             }
         }
-     
         public int GetWeeklyFlightNumber(DateTime date)
         {
             return (from f in Flights
@@ -122,27 +139,32 @@ namespace AM.Core.Services
                     select f).Count(); //type anonyme
 
         }
+
+
         public double GetDurationAverage(string destination)
         {
             return (from f in Flights
                     where f.Destination.ToString() == destination
                     select f.EstimateDuration).Average();
         }
+
         public IList<Flight> SortFlights()
         {
             return (from f in Flights
                     orderby f.EstimateDuration descending
                     select f).ToList();
         }
-        /*public IList<Passenger> GetThreeOlderTravellers(Flight flight)
+        public IList<Passenger> GetThreeOlderTravellers(Flight flight)
         {
-            return (from p in flight.Passengers
-                    orderby p.Age descending //orderby p.BirthDate
-                    select p).Take(3).ToList();
-        }*/
+            //return (from p in flight.passengers
+            //        orderby p.Age descending //orderby p.BirthDate
+            //        select p).Take(3).ToList();
+            return null;
+        }
+
         public void ShowGroupedFlights()
         {
-          
+            /*var */
             IEnumerable<IGrouping<string, Flight>> result = from f in Flights
                                                             group f by f.Destination.ToString();
             foreach (var grp in result)
@@ -155,5 +177,34 @@ namespace AM.Core.Services
                 }
             }
         }
+
+        //Les méthodes anonymes
+        public Passenger GetSeniorPassenger(IFlightService.GetScore meth)
+        {
+            //var result = (from f in Flights
+            //              from p in f.passengers
+            //              orderby meth(p) descending
+            //              select p).First();
+            //return result;
+            return null;
+        }
+        //TP6 --> Q2
+        //public void Add(Flight flight)
+        //{
+        //    repository.Add(flight);
+        //    // repository.Commit();
+        //    unitOfWork.Save();
+        //}
+        //public void Delete(Flight flight)
+        //{
+        //    repository.Delete(flight);
+        //    //repository.Commit();
+        //    unitOfWork.Save();
+        //}
+
+        //public IList<Flight> GetAll()
+        //{
+        //    return repository.GetAll();
+        //}
     }
 }

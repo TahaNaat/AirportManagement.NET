@@ -1,0 +1,12 @@
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\AM.Core.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\AM.Core.Interfaces.AssemblyInfoInputs.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\AM.Core.Interfaces.AssemblyInfo.cs
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\AM.Core.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\AM.Core.Interfaces.sourcelink.json
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\bin\Debug\net8.0\AM.Core.Interfaces.deps.json
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\bin\Debug\net8.0\AM.Core.Interfaces.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\bin\Debug\net8.0\AM.Core.Interfaces.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\AM.Core.Interfaces.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\refint\AM.Core.Interfaces.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\AM.Core.Interfaces.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Core.Interfaces\obj\Debug\net8.0\ref\AM.Core.Interfaces.dll

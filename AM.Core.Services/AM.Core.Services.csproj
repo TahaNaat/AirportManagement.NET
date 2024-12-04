@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.UnitOfWork" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AM.Core.Domain\AM.Core.Domain.csproj" />
+    <ProjectReference Include="..\AM.Core.Interfaces\AM.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\AM.Data\AM.Data.csproj" />
   </ItemGroup>
 
 </Project>

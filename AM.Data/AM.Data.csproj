@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AM.Core.Domain\AM.Core.Domain.csproj" />
+    <ProjectReference Include="..\AM.Core.Interfaces\AM.Core.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
