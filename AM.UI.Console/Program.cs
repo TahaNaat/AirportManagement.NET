@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using AM.Core.Domain;
+﻿using AM.Core.Domain;
 using AM.Data;
 
 

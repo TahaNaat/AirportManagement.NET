@@ -13,6 +13,8 @@ namespace AM.Core.Services
         IList<Flight> GetFlights(string filterType, string filterValue);
         IList<DateTime> GetFlightDates_lINQ(string destination);
        void ShowFlightDetails(Plane plane);
-
+        void Add(Flight flight);
+        void Delete(Flight flight);
+        IList<Flight> GetAll();
     }
 }
