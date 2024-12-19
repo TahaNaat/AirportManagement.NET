@@ -125,7 +125,7 @@ amcontext.Add(planeq10);
 amcontext.SaveChanges();
 Console.WriteLine(flightq10);
 Console.WriteLine(flightq10.MyPlane);
-
 Flight flightq11 = amcontext.Find<Flight>(2);
 Console.WriteLine(flightq11);
 Console.WriteLine(flightq11.MyPlane);
+

@@ -54,7 +54,9 @@ C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Data.dll
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Data.pdb
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Core.Domain.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Core.Interfaces.dll
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Core.Domain.pdb
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Core.Interfaces.pdb
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\obj\Debug\net8.0\AM.Data.csproj.AssemblyReference.cache
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\obj\Debug\net8.0\AM.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\obj\Debug\net8.0\AM.Data.AssemblyInfoInputs.cache
@@ -67,5 +69,3 @@ C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\obj\Debug\net8
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\obj\Debug\net8.0\AM.Data.pdb
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\obj\Debug\net8.0\AM.Data.genruntimeconfig.cache
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\obj\Debug\net8.0\ref\AM.Data.dll
-C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Core.Interfaces.dll
-C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.Data\bin\Debug\net8.0\AM.Core.Interfaces.pdb

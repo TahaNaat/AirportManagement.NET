@@ -1,0 +1,75 @@
+﻿﻿@using AM.Core.Domain;
+@model AM.Core.Domain.Flight
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Flight</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Destination" class="control-label"></label>
+                    <input asp-for="Destination" class="form-control" />
+                
+                <select class="form-control" asp-for="Destination">
+                </select>
+                <span asp-validation-for="Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Departure" class="control-label"></label>
+                @*                <input asp-for="Departure" class="form-control" />
+                *@
+                <select class="form-control" asp-for="Departure"
+                       >
+                </select>
+                <span asp-validation-for="Departure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FlightDate" class="control-label"></label>
+                <input asp-for="FlightDate" class="form-control" />
+                <span asp-validation-for="FlightDate" class="text-danger"></span>
+            </div>
+            @*            <div class="form-group">
+            <label asp-for="FlightId" class="control-label"></label>
+            <input asp-for="FlightId" class="form-control" />
+            <span asp-validation-for="FlightId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="EffectiveArrival" class="control-label"></label>
+                <input asp-for="EffectiveArrival" class="form-control" />
+                <span asp-validation-for="EffectiveArrival" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstimateDuration" class="control-label"></label>
+                <input asp-for="EstimateDuration" class="form-control" />
+                <span asp-validation-for="EstimateDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PlaneId" class="control-label"></label>
+                @*                <input asp-for="PlaneId" class="form-control" />  *@
+                <select class="form-control" asp-for="PlaneId" asp-items="@ViewBag.Planes">
+                </select>
+                <span asp-validation-for="PlaneId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,11 +1,9 @@
-﻿using AM.Core.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AM.Core.Domain; //ajouter refernce
 using AM.Core.Interfaces;
+using AM.Data;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace AM.Core.Services
 {
@@ -207,4 +205,5 @@ namespace AM.Core.Services
         //    return repository.GetAll();
         //}
     }
+
 }
