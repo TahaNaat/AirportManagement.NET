@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "23s7OxxQzEs=",
+  "dgSpecHash": "p3gMJ79Ay1U=",
   "success": true,
   "projectFilePath": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.UI.WEB\\AM.UI.WEB.csproj",
   "expectedPackageFiles": [
@@ -82,6 +82,7 @@
     "C:\\Users\\tahan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\tahan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
     "C:\\Users\\tahan\\.nuget\\packages\\microsoft.entityframeworkcore.autohistory\\3.1.1\\microsoft.entityframeworkcore.autohistory.3.1.1.nupkg.sha512",
+    "C:\\Users\\tahan\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.8\\microsoft.entityframeworkcore.design.8.0.8.nupkg.sha512",
     "C:\\Users\\tahan\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\8.0.8\\microsoft.entityframeworkcore.proxies.8.0.8.nupkg.sha512",
     "C:\\Users\\tahan\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.8\\microsoft.entityframeworkcore.relational.8.0.8.nupkg.sha512",
     "C:\\Users\\tahan\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.8\\microsoft.entityframeworkcore.sqlserver.8.0.8.nupkg.sha512",

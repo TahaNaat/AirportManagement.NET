@@ -50,6 +50,10 @@ namespace AM.Data.Migrations
                     b.Property<DateTime>("FlightDate")
                         .HasColumnType("date");
 
+                    b.Property<string>("Pilot")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("PlaneId")
                         .HasColumnType("int");
 

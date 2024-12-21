@@ -50,19 +50,37 @@ namespace AM.UI.WEB.Controllers
 
         // POST: FlightController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(Flight flight)
 
+        public ActionResult Create(Flight f, IFormFile file)
         {
             try
             {
-                flightService.Add(flight);
-                return RedirectToAction(nameof(Index));
+                if (file != null)
+                {
+                    f.Pilot = file.FileName;
+
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", file.FileName);
+
+                    if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads")))
+                    {
+                        Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads"));
+                    }
+
+                    using (System.IO.Stream stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                    }
+                }
+
+               
+                return RedirectToAction("Index");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
             }
+
+            return View(f);
         }
 
         // GET: FlightController/Edit/5

@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.UI.WEB\\wwwroot\\uploads\\462565445_1236645820923876_4177316495114290325_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\462565445_1236645820923876_4177316495114290325_n.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AM.UI.WEB.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

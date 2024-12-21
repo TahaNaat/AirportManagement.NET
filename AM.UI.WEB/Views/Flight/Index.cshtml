@@ -45,6 +45,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.PlaneId)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pilot)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -72,12 +75,22 @@
             <td>
                 @Html.DisplayFor(modelItem => item.PlaneId)
             </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                <td>
+                    <img src="~/uploads/@item.Pilot" alt="Pilot Image" style="width:100px;height:100px;" />
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.FlightId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.FlightId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.FlightId })
+                </td>
+        </tr>
+        
+        <tr>
+            <td colspan="9">
+                <partial name="_Reservations" model="@item.Reservations"></partial>
             </td>
         </tr>
-}
+        }
+
     </tbody>
 </table>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aAKArrUQ5HPmuBgbLViMt9cQpda1/kCRVrI09fX8qng=",
+  "Hash": "WeOa8j6y5bfdy4lWM+wBzqw5hDISlHA2dFrZAvaYILo=",
   "Source": "AM.UI.WEB",
   "BasePath": "_content/AM.UI.WEB",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.UI.WEB\\wwwroot\\uploads\\462565445_1236645820923876_4177316495114290325_n.jpg",
+      "SourceId": "AM.UI.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tahan\\OneDrive\\Bureau\\4SAE\\.net\\AirportManagemnt\\AM.UI.WEB\\wwwroot\\",
+      "BasePath": "_content/AM.UI.WEB",
+      "RelativePath": "uploads/462565445_1236645820923876_4177316495114290325_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\462565445_1236645820923876_4177316495114290325_n.jpg"
     }
   ]
 }

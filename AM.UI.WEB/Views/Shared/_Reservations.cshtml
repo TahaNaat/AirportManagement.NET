@@ -1,0 +1,23 @@
+﻿@model IEnumerable<AM.Core.Domain.Reservation>
+
+<table>
+    <thead>
+        <tr>
+            <th>Price</th>
+            <th>Seat</th>
+            <th>VIP</th>
+            <th>PassengerId</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reservation in Model)
+        {
+            <tr>
+                <td>@reservation.Price</td>
+                <td>@reservation.Seat</td>
+                <td>@reservation.Vip</td>
+                <td>@reservation.PassengerId</td>
+            </tr>
+        }
+    </tbody>
+</table>

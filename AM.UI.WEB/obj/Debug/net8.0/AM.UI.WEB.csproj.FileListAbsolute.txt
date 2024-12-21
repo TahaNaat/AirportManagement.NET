@@ -265,3 +265,4 @@ C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.UI.WEB\obj\Debug\ne
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.UI.WEB\obj\Debug\net8.0\AM.UI.WEB.pdb
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.UI.WEB\obj\Debug\net8.0\AM.UI.WEB.genruntimeconfig.cache
 C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.UI.WEB\obj\Debug\net8.0\ref\AM.UI.WEB.dll
+C:\Users\tahan\OneDrive\Bureau\4SAE\.net\AirportManagemnt\AM.UI.WEB\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
